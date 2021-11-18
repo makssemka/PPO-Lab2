@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="25sp">
+        </TextView>
+        <TextView
+            android:id="@+id/tvMark1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30sp"
+            android:textSize="15sp"
+            android:text="Русский язык: ">
+        </TextView>
+        <TextView
+            android:id="@+id/tvMark2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30sp"
+            android:textSize="15sp"
+            android:text="Математика: ">
+        </TextView>
+        <TextView
+            android:id="@+id/tvMark3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30sp"
+            android:textSize="15sp"
+            android:text="Физика: ">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
